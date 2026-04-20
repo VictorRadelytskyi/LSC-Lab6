@@ -65,3 +65,6 @@ The application executes a **Provision-Inject-Serve** lifecycle:
 | Job (web-content-job) | The Data Producer | A one-time worker that seeds the shared volume with data. |
 | Deployment (web-server) | The Data Consumer | A persistent server that renders the shared volume content. |
 | Service (NodePort) | The Gateway | Provides a stable entry point to access the web server from the host. |
+
+The hosted nginx page:
+<img width="630" height="291" alt="image" src="https://github.com/user-attachments/assets/5c13d40a-b260-4472-88fd-6fb3bc2f553a" />
